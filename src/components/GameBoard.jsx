@@ -5,8 +5,8 @@ const initialGameBoard = [
 ];
 
 export default function GameBoard({ onSelectSquare, turns }) {
-  // gameBoard è un computed value
-  // ci siamo derivati lo stato dalla prop
+  // gameBoard is a computed value
+  // we derivede the state from the prop
   let gameBoard = initialGameBoard;
 
   for (const turn of turns) {
