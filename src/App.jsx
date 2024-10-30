@@ -11,7 +11,7 @@ const initialGameBoard = [
   [null, null, null],
 ];
 
-// helper function to derive the active player
+// helper function to derive the activePlayer
 function deriveActivePlayer(gameTurns) {
   let currentPlayer = "X";
 
@@ -24,7 +24,7 @@ function deriveActivePlayer(gameTurns) {
 function App() {
   const [gameTurns, setGameTurns] = useState([]);
   // const [activePlayer, setActivePlayer] = useState("X");
-  // unecessary state, we derive the player from the gameTurns state
+  // unecessary state, we derive the activePlayer from the gameTurns state
 
   const activePlayer = deriveActivePlayer(gameTurns);
 
