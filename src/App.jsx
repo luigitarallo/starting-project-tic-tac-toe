@@ -71,7 +71,7 @@ function App() {
 
   const activePlayer = deriveActivePlayer(gameTurns);
   const gameBoard = deriveGameBoard(gameTurns);
-  // with spread operato and map method, we create a gameboard's
+  // with spread operator and map method, we create a gameboard's
   // deep copy, initially we change the original array because
   // it is a reference value not a primitive
 
